@@ -25,4 +25,5 @@ int z2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Координаты точки №1: ({x1}, {y1}, {z1})");
 Console.WriteLine($"Координаты точки №2: ({x2}, {y2}, {z2})");
 
-Console.WriteLine($"Расстояние между точками: {SQRT(SQR(x2-x1) + SQR(y2-y1) + SQR(z2-z1))}");
+double rez=Math.Sqrt(Math.Pow(x2-x1,2) + Math.Pow(y2-y1,2) + Math.Pow(z2-z1,2));
+Console.WriteLine($"Итог:{rez:f2}");
